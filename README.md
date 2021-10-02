@@ -5,11 +5,12 @@ differences in a video, using canvas.
 
 1. download and run samples-alex-bainter
 
+```
     git clone https://github.com/generative-music/samples-alex-bainter.git
     cd samples-alex-bainter/
     npm install
     npm run-script build
-
+```
 (takes a while)
 
 2. clone this repo
