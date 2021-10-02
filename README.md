@@ -3,7 +3,7 @@ differences in a video, using canvas.
 
 # Install
 
-1. download and run samples-alex-bainter
+Download and run samples-alex-bainter
 
     git clone https://github.com/generative-music/samples-alex-bainter.git
     cd samples-alex-bainter/
@@ -12,17 +12,17 @@ differences in a video, using canvas.
 
 (takes a while)
 
-2. clone this repo
+Clone this repo
 
     git clone https://github.com/libbymiller/music-foxes
     cd music-foxes
 
-3. Copy over the music samples and indexes
+Copy over the music samples and indexes
 
     cp -r ../samples-alex-bainter/dist/vsco2-piano-mf .
     cp ../samples-alex-bainter/dist/index.json samples.json
 
-4. run a server
+Run a server
 
 e.g.
 
