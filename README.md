@@ -5,26 +5,28 @@ differences in a video, using canvas.
 
 1. download and run samples-alex-bainter
 
-  git clone https://github.com/generative-music/samples-alex-bainter.git
-  cd samples-alex-bainter/
-  npm install
-  npm run-script build
+    git clone https://github.com/generative-music/samples-alex-bainter.git
+    cd samples-alex-bainter/
+    npm install
+    npm run-script build
 
 (takes a while)
 
 2. clone this repo
 
-  git clone ...
-  cd ....
+    git clone https://github.com/libbymiller/music-foxes
+    cd music-foxes
 
 3. Copy over the music samples and indexes
 
-  cp -r ../samples-alex-bainter/dist/vsco2-piano-mf .
-  cp ../samples-alex-bainter/dist/index.json samples.json
+    cp -r ../samples-alex-bainter/dist/vsco2-piano-mf .
+    cp ../samples-alex-bainter/dist/index.json samples.json
 
 4. run a server
 
-  python -m SimpleHTTPServer 8000
+e.g.
+
+    python -m SimpleHTTPServer 8000
 
 
 # The code
@@ -62,4 +64,5 @@ It also uses Tone.js, e.g.
     cp ./node_modules/tone/build/Tone.js js/
 
 or
-    curl "https://unpkg.com/tone@14.7.77/build/Tone.js" > js/tone.js
+
+    curl "https://unpkg.com/tone" > js/tone.js
