@@ -1,16 +1,15 @@
 A simple demonstrator showing music generated using the second derivative of pixel 
-differences in a video, using canvas.
+differences in a video, using canvas. It uses [music generation code by Alex Bainter](https://github.com/generative-music).
 
 # Install
 
 Download and run samples-alex-bainter
 
-```
     git clone https://github.com/generative-music/samples-alex-bainter.git
     cd samples-alex-bainter/
     npm install
     npm run-script build
-```
+
 (takes a while)
 
 Clone this repo
